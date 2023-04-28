@@ -1,0 +1,133 @@
+/* CSS Document */
+
+/* 
+Color Palette:
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*/
+
+
+/* CSS Reset */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* Body Styles */
+
+body {
+	background-color: #5C3317; /* Dark Brown */
+}
+
+.topNav { /* something is off with the image map */
+	margin-left: 500px;
+}
+
+img {
+	padding: 2%;
+	margin-left: 325px;
+	text-align: center;
+}
+
+
+
+/* Header Styles */
+
+header {
+	backgroubd-color: #5C3317; /* Dark Brown */
+	padding: 100px 50px;
+}
+
+h1, h2 {
+	color: #CCAF9D; /* Desert Sand */
+	text-align: center;
+}
+
+h1 {
+	font-size: 4.5em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+
+
+/* Main Styles */
+
+main {
+	color: #F7A26C; /* Tangerine */
+	background-color: #804720; /* Brown */
+	width: 70%;
+	margin-left: 225px;
+}
+
+table {
+	padding: 5%;
+}
+
+blockquote, h3, p, ol {
+	padding: 10px 50px;
+}
+
+blockquote {
+	font-size: 2em;
+}
+
+#newsImg {
+	float: left;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+	padding: 50px;
+}
+
+h4 {
+	color: #CCAF9D; /* Desert Sand */
+	text-align: center;
+	padding: 2%;
+}
+
+nav {
+	background-color: #E76A1A; /* Spanish Orange */
+	padding: 50px 30px;
+	width: 70%;
+	margin-left: 180px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #5C3317; /* Dark Brown */
+	background-color: #E76A1A; /* Spanish Orange */
+	padding: 50px 30px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+nav a:hover {
+	color: #804720; /* Brown */
+	background-color: #CCAF9D; /* Desert Sand */
+}
+
+
+
+
+
